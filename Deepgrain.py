@@ -163,6 +163,7 @@ class Deepgrain:
             [axi.set_axis_off() for axi in axarr.ravel()]
 
             grain_img = cv2.imread(image_path)
+            grain_img = cv2.cvtColor(grain_img, cv2.COLOR_BGR2RGB)
             mask = np.stack((mechanical_mask,)*3, axis=-1)
             masked_img = np.copy(grain_img)
             masked_img[(mask==1.0).all(-1)] = [0, 0, 255]
@@ -170,6 +171,7 @@ class Deepgrain:
             masked_opacity = cv2.addWeighted(masked_img, 0.3, grain_img, 0.7, 0, masked_img)    
 
             grain_img = cv2.imread(image_path)
+            grain_img = cv2.cvtColor(grain_img, cv2.COLOR_BGR2RGB)
             mask = np.stack((grain_mask,)*3, axis=-1)   
             masked_img = np.copy(grain_img)
             masked_img[(mask==1.0).all(-1)] = [0, 0, 255]    
@@ -177,6 +179,7 @@ class Deepgrain:
             masked_opacity_grain = cv2.addWeighted(masked_img, 0.3, grain_img, 0.7, 0, masked_img)    
 
             grain_img = cv2.imread(image_path)
+            grain_img = cv2.cvtColor(grain_img, cv2.COLOR_BGR2RGB)
             mask = np.stack((mechanical_mask,)*3, axis=-1)
             mask_grain = np.stack((grain_mask,)*3, axis=-1)
             masked_img_grain = np.copy(grain_img)
@@ -188,6 +191,7 @@ class Deepgrain:
             masked_opacity_grain_mechanical = cv2.addWeighted(masked_img, 0.3, masked_opacity_grain_mechanical, 0.7, 0, masked_img)
 
             grain_img = cv2.imread(image_path)
+            grain_img = cv2.cvtColor(grain_img, cv2.COLOR_BGR2RGB)
             grain_img[(grain_mask==0.0)] = 0
             mask = np.stack((mechanical_mask,)*3, axis=-1)
             mask_grain = np.stack((grain_mask,)*3, axis=-1)
@@ -198,8 +202,10 @@ class Deepgrain:
 
             masked_opacity_grain_mechanical_no_bg = cv2.addWeighted(masked_img_grain, 0.3, grain_img, 0.7, 0, masked_img_grain)
             masked_opacity_grain_mechanical_no_bg = cv2.addWeighted(masked_img, 0.3, masked_opacity_grain_mechanical_no_bg, 0.7, 0, masked_img)
-
-            axarr[0,0].imshow(cv2.imread(image_path))
+            
+            grain_img = cv2.imread(image_path)
+            grain_img = cv2.cvtColor(grain_img, cv2.COLOR_BGR2RGB)
+            axarr[0,0].imshow(grain_img)
 
             axarr[1,1].imshow(mechanical_mask)
             axarr[1,0].imshow(grain_mask)
@@ -228,6 +234,7 @@ class Deepgrain:
                 plt.close()
         else:
             grain_img = cv2.imread(image_path)
+            grain_img = cv2.cvtColor(grain_img, cv2.COLOR_BGR2RGB)
             grain_img[(grain_mask==0.0)] = 0
             mask = np.stack((mechanical_mask,)*3, axis=-1)
             mask_grain = np.stack((grain_mask,)*3, axis=-1)
@@ -237,9 +244,11 @@ class Deepgrain:
             masked_img_grain[(mask_grain==1.0).all(-1)] = [0, 255, 0]
 
             masked_opacity_grain_mechanical_no_bg = cv2.addWeighted(masked_img_grain, 0.3, grain_img, 0.7, 0, masked_img_grain)
-            masked_opacity_grain_mechanical_no_bg = cv2.addWeighted(masked_img, 0.3, masked_opacity_grain_mechanical_no_bg, 0.7, 0, masked_img)        
-
-            cv2.imwrite(os.path.join("visualizations/" + image_path), masked_opacity_grain_mechanical_no_bg)
+            masked_opacity_grain_mechanical_no_bg = cv2.addWeighted(masked_img, 0.3, masked_opacity_grain_mechanical_no_bg, 0.7, 0, masked_img)  
+            
+            if save_visualizations:
+                cv2.imwrite(os.path.join("visualizations/" + image_path), cv2.cvtColor(masked_opacity_grain_mechanical_no_bg, cv2.COLOR_RGB2BGR)) 
+            
             if show_visualizations:
                 plt.imshow(masked_opacity_grain_mechanical_no_bg)
 
