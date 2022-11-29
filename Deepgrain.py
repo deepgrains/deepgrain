@@ -18,7 +18,7 @@ class Deepgrain:
         Net = torchvision.models.segmentation.deeplabv3_resnet50(pretrained=True)  
         Net.classifier[4] = torch.nn.Conv2d(256, 3, kernel_size=(1, 1), stride=(1, 1)) 
         Net = Net.to(self.device)
-        Net.load_state_dict(torch.load(model_path))
+        Net.load_state_dict(torch.load(model_path, map_location=torch.device(self.device)))
         Net.eval(); 
     
         return Net
