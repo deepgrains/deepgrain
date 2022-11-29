@@ -4,7 +4,7 @@
 
 This repository contains codes for automatic segmentation of quartz grain mechanical parts. 
 
-<img src="./visualizations/QA_15a_48.png" alt="" width="100%" max-width="720px"/>
+<img src="./visualizations/QA_15a_48.png" alt="Automatically segmented grain" width="100%" max-width="720px"/>
 
-For a quick exploration, use Google colab:
-* <a><button name="button" onclick="https://colab.research.google.com/github/Ajders1/deepgrain/blob/main/inference.ipynb">RUN</button></a>
+## For a quick exploration, use Google colab:
+* [RUN](https://colab.research.google.com/github/Ajders1/deepgrain/blob/main/inference.ipynb)
