@@ -15,6 +15,11 @@
 ## <b>Model training results:</b>
 <p float="center">
   Table show mean dice score of deep lab model with individual enhancement techniques
+  |               | Second Header | Second Header |
+  |               | Second | Header | Header | Header |
+  | ------------- | ------------- |
+  | Content Cell  | Second | Header | Header | Header |
+  | Content Cell  | Second | Header | Header | Header |
   <img src="https://drive.google.com/uc?id=111CplHMLXiyaWmJYuz-fmY6HSdNxoDAn" width="450" />
 </p>
 
