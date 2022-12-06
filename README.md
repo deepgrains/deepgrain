@@ -17,70 +17,63 @@ Table show mean dice score of deep lab model with individual enhancement techniq
 
 We found great potential in increasing the accuracy of the deep lab model because the model achieved such accuracy even without augmentation. Therefore, we implemented augmentation and precision of the physical parts by 0.05. The grain segmentation even reached 1.00 of dice score coefficient without background. 
   
-<table style="border: 1px solid black;">
-  <tr style="border: 1px solid black;">
-  <td>&nbsp;</td>
-  <td colspan="2">Dice without BG</td>
-  <td colspan="2">Dice with BG</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-  <td>&nbsp;</td>
-  <td>Physical</td>
-  <td>Grain</td>
-  <td>Physical</td>
-  <td>Grain</td>
-  </tr>
-  <tr style="border: 1px solid black;"
-  <td>UNET</td>
-  <td>0.46</td>
-  <td>0.91</td>
-  <td>0.76</td>
-  <td>0.93</td>
-  </tr>
-  <tr style="border: 1px solid black;"
-  <td>Swin-S
-  </td>
-  <td>0.43</td>
-  <td>0.98</td>
-  <td>0.90</td>
-  <td>0.98</td>
-  </tr>
-  <tr style="border: 1px solid black;"
-  <td>Deep lab 
-  (no augment)
-  </td>
-  <td>0.43</td>
-  <td>0.97</td>
-  <td>0.89</td>
-  <td>0.98</td>
-  </tr>
-  <tr style="border: 1px solid black;"
-  <td>Deep lab 
-  (augment)
-  </td>
-  <td>0.48</td>
-  <td>1.00</td>
-  <td>0.99</td>
-  <td>1.00</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-  <td>Deep lab 
-  (augment and TTA)
-  </td>
-  <td>0.50</td>
-  <td>1.00</td>
-  <td>0.90</td>
-  <td>1.00</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-  <td>Deep lab
-  (multilabel)
-  </td>
+<table>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td colspan="2">**Dice without BG**</td>
+<td colspan="2">**Dice with BG**</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>**Physical**</td>
+<td>**Grain**</td>
+<td>**Physical**</td>
+<td>**Grain**</td>
+</tr>
+<tr>
+<td>**UNET**</td>
+<td>0.46</td>
+<td>0.91</td>
+<td>0.76</td>
+<td>0.93</td>
+</tr>
+<tr>
+<td>**Swin-S**</td>
+<td>0.43</td>
+<td>0.98</td>
+<td>0.90</td>
+<td>0.98</td>
+</tr>
+<tr>
+<td>**Deep lab (no augment)**</td>
+<td>0.43</td>
+<td>0.97</td>
+<td>0.89</td>
+<td>0.98</td>
+</tr>
+<tr>
+<td>**Deep lab (augment)**</td>
+<td>0.48</td>
+<td>1.00</td>
+<td>0.99</td>
+<td>1.00</td>
+</tr>
+<tr>
+<td>**Deep lab (augment and TTA)**</td>
+<td>0.50</td>
+<td>1.00</td>
+<td>0.90</td>
+<td>1.00</td>
+</tr>
+<tr>
+  <td>**Deep lab (multilabel)**</td>
   <td>0.63</td>
   <td>0.99</td>
   <td>0.93</td>
   <td>0.99</td>
-  </tr>
+</tr>
+</tbody>
 </table>
   
 ## For a quick exploration, use Google colab:
