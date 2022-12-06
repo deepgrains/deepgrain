@@ -15,19 +15,48 @@
 ## <b>Model training results:</b>
   Table show mean dice score of deep lab model with individual enhancement techniques
   
-|   |   | Dice without BG || Dice with BG ||
-| ------------- | ------------- | ------------- | ------------- |
-| **Content Cell**  | **Content Cell**  | Second Header | Second Header |
-| Content Cell  | Content Cell  | Second Header | Second Header |
-
-  
-| Cell1| Cell2 | Cell3 |
-|------|-------|-------|
-| merge right ||       |
-| merge|       |       |
-| below|^      |^      |
-| merge both  || value1|
-|^            || value2|
+<table style="border: 1px solid black;">
+<tr style="border: 1px solid black;">
+<td>&nbsp;</td>
+<td colspan="2">Dice without BG</td>
+<td colspan="2">Dice with BG</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td>&nbsp;</td>
+<td>Physical</td>
+<td>Grain</td>
+<td>Physical</td>
+<td>Grain</td>
+</tr>
+<tr>
+<td>Deep lab 
+(augment)
+</td>
+<td>0.48</td>
+<td>1.00</td>
+<td>0.99</td>
+<td>1.00</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td>Deep lab 
+(augment and TTA)
+</td>
+<td>0.50</td>
+<td>1.00</td>
+<td>0.90</td>
+<td>1.00</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td>Deep lab
+(multilabel)
+</td>
+<td>0.63</td>
+<td>0.99</td>
+<td>0.93</td>
+<td>0.99</td>
+</tr>
+</table>
+<!-- DivTable.com -->
   
 
 ## For a quick exploration, use Google colab:
