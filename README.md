@@ -21,7 +21,7 @@ We found great potential in increasing the accuracy of the deep lab model becaus
 <tbody>
 <tr>
 <td>&nbsp;</td>
-<td colspan="2">**Dice without BG**</td>
+<td colspan="2"><strong>Dice without BG</strong></td>
 <td colspan="2">**Dice with BG**</td>
 </tr>
 <tr>
