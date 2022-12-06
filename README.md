@@ -13,7 +13,6 @@
 </p>
 
 ## <b>Model training results:</b>
-<p float="center">
   Table show mean dice score of deep lab model with individual enhancement techniques
   
 |   |   | Dice without BG || Dice with BG ||
@@ -30,8 +29,6 @@
 | merge both  || value1|
 |^            || value2|
   
-  <img src="https://drive.google.com/uc?id=111CplHMLXiyaWmJYuz-fmY6HSdNxoDAn" width="450" />
-</p>
 
 ## For a quick exploration, use Google colab:
 Our DeepGrain model release brings support for classification and segmentation. See full details and visit our [DeepGrain Colab Notebook](https://colab.research.google.com/github/Ajders1/deepgrain/blob/main/inference.ipynb) for quickstart tutorials.
