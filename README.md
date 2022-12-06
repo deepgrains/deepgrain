@@ -22,52 +22,52 @@ We found great potential in increasing the accuracy of the deep lab model becaus
 <tr>
 <td>&nbsp;</td>
 <td colspan="2"><strong>Dice without BG</strong></td>
-<td colspan="2">**Dice with BG**</td>
+<td colspan="2"><strong>Dice with BG<strong></td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td>**Physical**</td>
-<td>**Grain**</td>
-<td>**Physical**</td>
-<td>**Grain**</td>
+<td><strong>Physical<strong></td>
+<td><strong>Grain<strong></td>
+<td><strong>Physical<strong></td>
+<td><strong>Grain<strong></td>
 </tr>
 <tr>
-<td>**UNET**</td>
+<td><strong>UNET<strong></td>
 <td>0.46</td>
 <td>0.91</td>
 <td>0.76</td>
 <td>0.93</td>
 </tr>
 <tr>
-<td>**Swin-S**</td>
+<td><strong>Swin-S<strong></td>
 <td>0.43</td>
 <td>0.98</td>
 <td>0.90</td>
 <td>0.98</td>
 </tr>
 <tr>
-<td>**Deep lab (no augment)**</td>
+<td><strong>Deep lab (no augment)<strong></td>
 <td>0.43</td>
 <td>0.97</td>
 <td>0.89</td>
 <td>0.98</td>
 </tr>
 <tr>
-<td>**Deep lab (augment)**</td>
+<td><strong>Deep lab (augment)<strong></td>
 <td>0.48</td>
 <td>1.00</td>
 <td>0.99</td>
 <td>1.00</td>
 </tr>
 <tr>
-<td>**Deep lab (augment and TTA)**</td>
+<td><strong>Deep lab (augment and TTA)<strong></td>
 <td>0.50</td>
 <td>1.00</td>
 <td>0.90</td>
 <td>1.00</td>
 </tr>
 <tr>
-  <td>**Deep lab (multilabel)**</td>
+  <td><strong>Deep lab (multilabel)<strong></td>
   <td>0.63</td>
   <td>0.99</td>
   <td>0.93</td>
