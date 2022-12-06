@@ -30,7 +30,6 @@ We found great potential in increasing the accuracy of the deep lab model becaus
   <td>Physical</td>
   <td>Grain</td>
   </tr>
-  
   <tr style="border: 1px solid black;"
   <td>UNET
   </td>
@@ -56,7 +55,6 @@ We found great potential in increasing the accuracy of the deep lab model becaus
   <td>0.89</td>
   <td>0.98</td>
   </tr>
-  
   <tr style="border: 1px solid black;"
   <td>Deep lab 
   (augment)
