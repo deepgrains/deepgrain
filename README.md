@@ -16,10 +16,20 @@
 <p float="center">
   Table show mean dice score of deep lab model with individual enhancement techniques
   
-|   |   | Dice without BG | Dice with BG |
+|   |   | Dice without BG | Dice with BG ||
 | ------------- | ------------- | ------------- | ------------- |
 | **Content Cell**  | **Content Cell**  | Second Header | Second Header |
 | Content Cell  | Content Cell  | Second Header | Second Header |
+  
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         ||  
+[Prototype table]
   
   <img src="https://drive.google.com/uc?id=111CplHMLXiyaWmJYuz-fmY6HSdNxoDAn" width="450" />
 </p>
