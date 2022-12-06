@@ -16,10 +16,10 @@
 <p float="center">
   Table show mean dice score of deep lab model with individual enhancement techniques
   
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| First Header  | Second Header | Second Header | Second Header |
+| ------------- | ------------- | Second Header | Second Header |
+| Content Cell  | Content Cell  | Second Header | Second Header |
+| Content Cell  | Content Cell  | Second Header | Second Header |
   
   <img src="https://drive.google.com/uc?id=111CplHMLXiyaWmJYuz-fmY6HSdNxoDAn" width="450" />
 </p>
