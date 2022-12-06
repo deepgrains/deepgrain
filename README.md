@@ -31,9 +31,8 @@ We found great potential in increasing the accuracy of the deep lab model becaus
   <td>Grain</td>
   </tr>
   <tr style="border: 1px solid black;"
-  <td>UNET
-  </td>
-  <td>0.46/td>
+  <td>UNET</td>
+  <td>0.46</td>
   <td>0.91</td>
   <td>0.76</td>
   <td>0.93</td>
