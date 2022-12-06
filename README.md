@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-< palign="justify">The work presented here aims to analyze testing different artificial intelligence algorithms applied for automatic image analysis recognition techniques to determine mechanical marks that were observed on quartz grain surfaces retrieved from contrasting geomorphological and sedimentological settings. The proposed work solution uses artificial intelligence for image analysis, specifically the so-called deep learning and neural networks. The field of neural networks, respectively field of objects recognition is already among the frequently used techniques today, but despite this, it has undergone challenging development and it is still developing.</p>
+<p align="justify">The work presented here aims to analyze testing different artificial intelligence algorithms applied for automatic image analysis recognition techniques to determine mechanical marks that were observed on quartz grain surfaces retrieved from contrasting geomorphological and sedimentological settings. The proposed work solution uses artificial intelligence for image analysis, specifically the so-called deep learning and neural networks. The field of neural networks, respectively field of objects recognition is already among the frequently used techniques today, but despite this, it has undergone challenging development and it is still developing.</p>
 <!-- This repository contains codes for automatic segmentation of quartz grain mechanical parts. -->
 
 <p float="center">
