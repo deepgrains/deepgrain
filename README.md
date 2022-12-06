@@ -13,10 +13,11 @@
 </p>
 
 ## <b>Model training results:</b>
-Table show mean dice score of deep lab model with individual enhancement techniques.
+<p align="justify">Table show mean dice score of deep lab model with individual enhancement techniques.
 
 We found great potential in increasing the accuracy of the deep lab model because the model achieved such accuracy even without augmentation. Therefore, we implemented augmentation and precision of the physical parts by 0.05. The grain segmentation even reached 1.00 of dice score coefficient without background. 
-  
+</p>
+
 <table>
 <tbody>
 <tr>
