@@ -19,4 +19,4 @@
 </p>
 
 ## For a quick exploration, use Google colab:
-* [RUN](https://colab.research.google.com/github/Ajders1/deepgrain/blob/main/inference.ipynb)
+Our DeepGrain model release brings support for classification and segmentation. See full details and visit our [DeepGrain Colab Notebook](https://colab.research.google.com/github/Ajders1/deepgrain/blob/main/inference.ipynb) for quickstart tutorials.
