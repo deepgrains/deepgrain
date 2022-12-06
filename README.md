@@ -12,7 +12,7 @@
   <img src="https://drive.google.com/uc?id=1GJUO66UIcWHYjG6vtTkHlfivclmC7FwN" alt="Automatically segmented grain" width="200" />
 </p>
 
-<b>Model training results:</b>
+## <b>Model training results:</b>
 <p float="center">
   Table show mean dice score of deep lab model with individual enhancement techniques
   <img src="https://drive.google.com/uc?id=111CplHMLXiyaWmJYuz-fmY6HSdNxoDAn" width="450" />
