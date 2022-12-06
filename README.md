@@ -12,7 +12,6 @@
   <img src="https://drive.google.com/uc?id=1GJUO66UIcWHYjG6vtTkHlfivclmC7FwN" alt="Automatically segmented grain" width="200" />
 </p>
 
-</br>
 ## <b>Model training results:</b>
 <p align="justify">We found great potential in increasing the accuracy of the deep lab model because the model achieved such accuracy even without augmentation. Therefore, we implemented augmentation and precision of the physical parts by 0.05. The grain segmentation even reached 1.00 of dice score coefficient without background. 
 </p>
@@ -77,7 +76,7 @@
 </tr>
 </tbody>
 </table>
-  
 </br>
+  
 ## For a quick exploration, use Google colab:
 Our DeepGrain model release brings support for classification and segmentation. See full details and visit our [DeepGrain Colab Notebook](https://colab.research.google.com/github/Ajders1/deepgrain/blob/main/inference.ipynb) for quickstart tutorials.
