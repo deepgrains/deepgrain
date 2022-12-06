@@ -16,7 +16,7 @@
 <p float="center">
   Table show mean dice score of deep lab model with individual enhancement techniques
   
-|   |   | Dice without BG | Dice with BG ||
+|   |   | Dice without BG || Dice with BG ||
 | ------------- | ------------- | ------------- | ------------- |
 | **Content Cell**  | **Content Cell**  | Second Header | Second Header |
 | Content Cell  | Content Cell  | Second Header | Second Header |
