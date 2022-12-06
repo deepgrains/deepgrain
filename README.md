@@ -7,17 +7,14 @@
 
 <p float="center">
   <img src="./visualizations/QA_15a_48.png" alt="Automatically segmented grain" width="200" />
-  <img src="./visualizations/QA_15a_49.png" alt="Automatically segmented grain" width="200" />
-  <img src="./visualizations/QA_15a_50.png" alt="Automatically segmented grain" width="200" />
-  <img src="./visualizations/QA_15a_51.png" alt="Automatically segmented grain" width="200" />
+  <img src="https://drive.google.com/file/d/1qN6UIIyRpZsqyo6S6vHToXO6CpDf7pMc" alt="Automatically segmented grain" width="200" />
+  <img src="https://drive.google.com/file/d/1AU7n23PQrqs4uHvZoQ4qoOJBMPTXludA" alt="Automatically segmented grain" width="200" />
+  <img src="https://drive.google.com/file/d/1GJUO66UIcWHYjG6vtTkHlfivclmC7FwN" alt="Automatically segmented grain" width="200" />
 </p>
-
-<b>The dataset, scripts and other files used in this work can be found at:</b></br>
-https://drive.google.com/drive/folders/1pCiBqvItr4K8-zJZ3WTG0lvnNh--s22S?usp=sharing
 
 <b>Model training results:</b>
 <p float="center">
-  <img src="https://drive.google.com/uc?id=1dp1jt9ALL_nuU_jnZwyNFSQzIr7gsMcd" width="450" />
+  <img src="https://drive.google.com/file/d/111CplHMLXiyaWmJYuz-fmY6HSdNxoDAn" width="450" />
 </p>
 
 ## For a quick exploration, use Google colab:
