@@ -20,6 +20,15 @@
 | ------------- | ------------- | ------------- | ------------- |
 | **Content Cell**  | **Content Cell**  | Second Header | Second Header |
 | Content Cell  | Content Cell  | Second Header | Second Header |
+
+  
+| Cell1| Cell2 | Cell3 |
+|------|-------|-------|
+| merge right ||       |
+| merge|       |       |
+| below|^      |^      |
+| merge both  || value1|
+|^            || value2|
   
   <img src="https://drive.google.com/uc?id=111CplHMLXiyaWmJYuz-fmY6HSdNxoDAn" width="450" />
 </p>
