@@ -6,10 +6,10 @@
 <!-- This repository contains codes for automatic segmentation of quartz grain mechanical parts. -->
 </br>
 <p float="center">
-  ![image info](visualizations/QA_15a_48.png)
-  <img src="https://drive.google.com/uc?id=1qN6UIIyRpZsqyo6S6vHToXO6CpDf7pMc" alt="Automatically segmented grain" width="200" />
-  <img src="https://drive.google.com/uc?id=1AU7n23PQrqs4uHvZoQ4qoOJBMPTXludA" alt="Automatically segmented grain" width="200" />
-  <img src="https://drive.google.com/uc?id=1GJUO66UIcWHYjG6vtTkHlfivclmC7FwN" alt="Automatically segmented grain" width="200" />
+  <img src="https://github.com/deepgrains/deepgrain/blob/main/visualizations/QA_15a_48.png" alt="Automatically segmented grain" width="200" />
+  <img src="https://github.com/deepgrains/deepgrain/blob/main/images/grain1.png" alt="Automatically segmented grain" width="200" />
+  <img src="https://github.com/deepgrains/deepgrain/blob/main/images/grain2.png" alt="Automatically segmented grain" width="200" />
+  <img src="https://github.com/deepgrains/deepgrain/blob/main/images/grain3.png" alt="Automatically segmented grain" width="200" />
 </p>
 <br></br>
 
